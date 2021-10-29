@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92698AB8272B72C1009626E8 /* GymNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92698AB7272B72C1009626E8 /* GymNoteApp.swift */; };
+		92698ABA272B72C1009626E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92698AB9272B72C1009626E8 /* ContentView.swift */; };
+		92698ABC272B72C6009626E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92698ABB272B72C6009626E8 /* Assets.xcassets */; };
+		92698ABF272B72C6009626E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92698ABE272B72C6009626E8 /* Preview Assets.xcassets */; };
+		92698ACA272B72C7009626E8 /* GymNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92698AC9272B72C7009626E8 /* GymNoteTests.swift */; };
+		92698AD5272B72C7009626E8 /* GymNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92698AD4272B72C7009626E8 /* GymNoteUITests.swift */; };
+		BEF64B8E016548786D0881DD /* Pods_GymNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94451131F03E005ED6D6C09 /* Pods_GymNote.framework */; };
+		C67379E702C9BDB1EBCCF981 /* Pods_GymNoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF434A9462F55B02DCF3727A /* Pods_GymNoteTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92698AC6272B72C6009626E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92698AAC272B72C1009626E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92698AB3272B72C1009626E8;
+			remoteInfo = GymNote;
+		};
+		92698AD1272B72C7009626E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92698AAC272B72C1009626E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92698AB3272B72C1009626E8;
+			remoteInfo = GymNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1996FF6E5556F16476DE34D1 /* Pods-GymNoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNoteTests.release.xcconfig"; path = "Target Support Files/Pods-GymNoteTests/Pods-GymNoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E59D9C13A8B4E8FC566D6ED /* Pods-GymNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNote.debug.xcconfig"; path = "Target Support Files/Pods-GymNote/Pods-GymNote.debug.xcconfig"; sourceTree = "<group>"; };
+		92698AB4272B72C1009626E8 /* GymNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92698AB7272B72C1009626E8 /* GymNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymNoteApp.swift; sourceTree = "<group>"; };
+		92698AB9272B72C1009626E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92698ABB272B72C6009626E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92698ABE272B72C6009626E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92698AC0272B72C6009626E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92698AC5272B72C6009626E8 /* GymNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92698AC9272B72C7009626E8 /* GymNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymNoteTests.swift; sourceTree = "<group>"; };
+		92698ACB272B72C7009626E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92698AD0272B72C7009626E8 /* GymNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92698AD4272B72C7009626E8 /* GymNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymNoteUITests.swift; sourceTree = "<group>"; };
+		92698AD6272B72C7009626E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F58C92D30C7B17561EB0DC /* Pods-GymNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNoteTests.debug.xcconfig"; path = "Target Support Files/Pods-GymNoteTests/Pods-GymNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC5812736A088B8D9E1AB8FB /* Pods-GymNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNote.release.xcconfig"; path = "Target Support Files/Pods-GymNote/Pods-GymNote.release.xcconfig"; sourceTree = "<group>"; };
+		CF434A9462F55B02DCF3727A /* Pods_GymNoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymNoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94451131F03E005ED6D6C09 /* Pods_GymNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92698AB1272B72C1009626E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF64B8E016548786D0881DD /* Pods_GymNote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92698AC2272B72C6009626E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67379E702C9BDB1EBCCF981 /* Pods_GymNoteTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92698ACD272B72C7009626E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61319EF232AECE99BAC07E4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D94451131F03E005ED6D6C09 /* Pods_GymNote.framework */,
+				CF434A9462F55B02DCF3727A /* Pods_GymNoteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92698AAB272B72C1009626E8 = {
+			isa = PBXGroup;
+			children = (
+				92698AB6272B72C1009626E8 /* GymNote */,
+				92698AC8272B72C7009626E8 /* GymNoteTests */,
+				92698AD3272B72C7009626E8 /* GymNoteUITests */,
+				92698AB5272B72C1009626E8 /* Products */,
+				B61B1689285AE0DBE01AEA1D /* Pods */,
+				61319EF232AECE99BAC07E4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92698AB5272B72C1009626E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92698AB4272B72C1009626E8 /* GymNote.app */,
+				92698AC5272B72C6009626E8 /* GymNoteTests.xctest */,
+				92698AD0272B72C7009626E8 /* GymNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92698AB6272B72C1009626E8 /* GymNote */ = {
+			isa = PBXGroup;
+			children = (
+				92698AB7272B72C1009626E8 /* GymNoteApp.swift */,
+				92698AB9272B72C1009626E8 /* ContentView.swift */,
+				92698ABB272B72C6009626E8 /* Assets.xcassets */,
+				92698AC0272B72C6009626E8 /* Info.plist */,
+				92698ABD272B72C6009626E8 /* Preview Content */,
+			);
+			path = GymNote;
+			sourceTree = "<group>";
+		};
+		92698ABD272B72C6009626E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92698ABE272B72C6009626E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92698AC8272B72C7009626E8 /* GymNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				92698AC9272B72C7009626E8 /* GymNoteTests.swift */,
+				92698ACB272B72C7009626E8 /* Info.plist */,
+			);
+			path = GymNoteTests;
+			sourceTree = "<group>";
+		};
+		92698AD3272B72C7009626E8 /* GymNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92698AD4272B72C7009626E8 /* GymNoteUITests.swift */,
+				92698AD6272B72C7009626E8 /* Info.plist */,
+			);
+			path = GymNoteUITests;
+			sourceTree = "<group>";
+		};
+		B61B1689285AE0DBE01AEA1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E59D9C13A8B4E8FC566D6ED /* Pods-GymNote.debug.xcconfig */,
+				BC5812736A088B8D9E1AB8FB /* Pods-GymNote.release.xcconfig */,
+				A7F58C92D30C7B17561EB0DC /* Pods-GymNoteTests.debug.xcconfig */,
+				1996FF6E5556F16476DE34D1 /* Pods-GymNoteTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92698AB3272B72C1009626E8 /* GymNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92698AD9272B72C7009626E8 /* Build configuration list for PBXNativeTarget "GymNote" */;
+			buildPhases = (
+				661AE11E103FB2E854168BC4 /* [CP] Check Pods Manifest.lock */,
+				92698AB0272B72C1009626E8 /* Sources */,
+				92698AB1272B72C1009626E8 /* Frameworks */,
+				92698AB2272B72C1009626E8 /* Resources */,
+				8D3C2736A6856815150B7008 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymNote;
+			productName = GymNote;
+			productReference = 92698AB4272B72C1009626E8 /* GymNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92698AC4272B72C6009626E8 /* GymNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92698ADC272B72C7009626E8 /* Build configuration list for PBXNativeTarget "GymNoteTests" */;
+			buildPhases = (
+				95BE4F9B30D597000DC17DCB /* [CP] Check Pods Manifest.lock */,
+				92698AC1272B72C6009626E8 /* Sources */,
+				92698AC2272B72C6009626E8 /* Frameworks */,
+				92698AC3272B72C6009626E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92698AC7272B72C6009626E8 /* PBXTargetDependency */,
+			);
+			name = GymNoteTests;
+			productName = GymNoteTests;
+			productReference = 92698AC5272B72C6009626E8 /* GymNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92698ACF272B72C7009626E8 /* GymNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92698ADF272B72C7009626E8 /* Build configuration list for PBXNativeTarget "GymNoteUITests" */;
+			buildPhases = (
+				92698ACC272B72C7009626E8 /* Sources */,
+				92698ACD272B72C7009626E8 /* Frameworks */,
+				92698ACE272B72C7009626E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92698AD2272B72C7009626E8 /* PBXTargetDependency */,
+			);
+			name = GymNoteUITests;
+			productName = GymNoteUITests;
+			productReference = 92698AD0272B72C7009626E8 /* GymNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92698AAC272B72C1009626E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					92698AB3272B72C1009626E8 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					92698AC4272B72C6009626E8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 92698AB3272B72C1009626E8;
+					};
+					92698ACF272B72C7009626E8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 92698AB3272B72C1009626E8;
+					};
+				};
+			};
+			buildConfigurationList = 92698AAF272B72C1009626E8 /* Build configuration list for PBXProject "GymNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92698AAB272B72C1009626E8;
+			productRefGroup = 92698AB5272B72C1009626E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92698AB3272B72C1009626E8 /* GymNote */,
+				92698AC4272B72C6009626E8 /* GymNoteTests */,
+				92698ACF272B72C7009626E8 /* GymNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92698AB2272B72C1009626E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92698ABF272B72C6009626E8 /* Preview Assets.xcassets in Resources */,
+				92698ABC272B72C6009626E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92698AC3272B72C6009626E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92698ACE272B72C7009626E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		661AE11E103FB2E854168BC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D3C2736A6856815150B7008 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymNote/Pods-GymNote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymNote/Pods-GymNote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GymNote/Pods-GymNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95BE4F9B30D597000DC17DCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymNoteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92698AB0272B72C1009626E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92698ABA272B72C1009626E8 /* ContentView.swift in Sources */,
+				92698AB8272B72C1009626E8 /* GymNoteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92698AC1272B72C6009626E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92698ACA272B72C7009626E8 /* GymNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92698ACC272B72C7009626E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92698AD5272B72C7009626E8 /* GymNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92698AC7272B72C6009626E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92698AB3272B72C1009626E8 /* GymNote */;
+			targetProxy = 92698AC6272B72C6009626E8 /* PBXContainerItemProxy */;
+		};
+		92698AD2272B72C7009626E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92698AB3272B72C1009626E8 /* GymNote */;
+			targetProxy = 92698AD1272B72C7009626E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92698AD7272B72C7009626E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92698AD8272B72C7009626E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92698ADA272B72C7009626E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E59D9C13A8B4E8FC566D6ED /* Pods-GymNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GymNote/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GymNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.gymnote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92698ADB272B72C7009626E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC5812736A088B8D9E1AB8FB /* Pods-GymNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GymNote/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GymNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.gymnote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92698ADD272B72C7009626E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F58C92D30C7B17561EB0DC /* Pods-GymNoteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GymNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.GymNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymNote.app/GymNote";
+			};
+			name = Debug;
+		};
+		92698ADE272B72C7009626E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1996FF6E5556F16476DE34D1 /* Pods-GymNoteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GymNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.GymNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymNote.app/GymNote";
+			};
+			name = Release;
+		};
+		92698AE0272B72C7009626E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GymNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.GymNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GymNote;
+			};
+			name = Debug;
+		};
+		92698AE1272B72C7009626E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GymNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.GymNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GymNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92698AAF272B72C1009626E8 /* Build configuration list for PBXProject "GymNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92698AD7272B72C7009626E8 /* Debug */,
+				92698AD8272B72C7009626E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92698AD9272B72C7009626E8 /* Build configuration list for PBXNativeTarget "GymNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92698ADA272B72C7009626E8 /* Debug */,
+				92698ADB272B72C7009626E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92698ADC272B72C7009626E8 /* Build configuration list for PBXNativeTarget "GymNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92698ADD272B72C7009626E8 /* Debug */,
+				92698ADE272B72C7009626E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92698ADF272B72C7009626E8 /* Build configuration list for PBXNativeTarget "GymNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92698AE0272B72C7009626E8 /* Debug */,
+				92698AE1272B72C7009626E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92698AAC272B72C1009626E8 /* Project object */;
+}
