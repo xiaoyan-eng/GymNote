@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		92698AB8272B72C1009626E8 /* GymNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92698AB7272B72C1009626E8 /* GymNoteApp.swift */; };
-		92698ABA272B72C1009626E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92698AB9272B72C1009626E8 /* ContentView.swift */; };
 		92698ABC272B72C6009626E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92698ABB272B72C6009626E8 /* Assets.xcassets */; };
 		92698ABF272B72C6009626E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92698ABE272B72C6009626E8 /* Preview Assets.xcassets */; };
 		92698ACA272B72C7009626E8 /* GymNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92698AC9272B72C7009626E8 /* GymNoteTests.swift */; };
 		92698AD5272B72C7009626E8 /* GymNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92698AD4272B72C7009626E8 /* GymNoteUITests.swift */; };
 		BEF64B8E016548786D0881DD /* Pods_GymNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94451131F03E005ED6D6C09 /* Pods_GymNote.framework */; };
 		C67379E702C9BDB1EBCCF981 /* Pods_GymNoteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF434A9462F55B02DCF3727A /* Pods_GymNoteTests.framework */; };
+		D35C5A5A272F53A600B68B80 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C5A59272F53A600B68B80 /* MainTabView.swift */; };
+		D35C5A5C272F53DD00B68B80 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C5A5B272F53DD00B68B80 /* DashboardView.swift */; };
+		D35C5A5F272F55F600B68B80 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C5A5E272F55F600B68B80 /* SummaryView.swift */; };
+		D35C5A62272F5C5000B68B80 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C5A61272F5C5000B68B80 /* SettingsView.swift */; };
+		D35C5A64272F5E4700B68B80 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C5A63272F5E4700B68B80 /* DashboardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		3E59D9C13A8B4E8FC566D6ED /* Pods-GymNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNote.debug.xcconfig"; path = "Target Support Files/Pods-GymNote/Pods-GymNote.debug.xcconfig"; sourceTree = "<group>"; };
 		92698AB4272B72C1009626E8 /* GymNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92698AB7272B72C1009626E8 /* GymNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymNoteApp.swift; sourceTree = "<group>"; };
-		92698AB9272B72C1009626E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92698ABB272B72C6009626E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92698ABE272B72C6009626E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92698AC0272B72C6009626E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +55,11 @@
 		A7F58C92D30C7B17561EB0DC /* Pods-GymNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNoteTests.debug.xcconfig"; path = "Target Support Files/Pods-GymNoteTests/Pods-GymNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC5812736A088B8D9E1AB8FB /* Pods-GymNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymNote.release.xcconfig"; path = "Target Support Files/Pods-GymNote/Pods-GymNote.release.xcconfig"; sourceTree = "<group>"; };
 		CF434A9462F55B02DCF3727A /* Pods_GymNoteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymNoteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35C5A59272F53A600B68B80 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		D35C5A5B272F53DD00B68B80 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		D35C5A5E272F55F600B68B80 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		D35C5A61272F5C5000B68B80 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D35C5A63272F5E4700B68B80 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		D94451131F03E005ED6D6C09 /* Pods_GymNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -116,8 +124,11 @@
 		92698AB6272B72C1009626E8 /* GymNote */ = {
 			isa = PBXGroup;
 			children = (
-				92698AB7272B72C1009626E8 /* GymNoteApp.swift */,
-				92698AB9272B72C1009626E8 /* ContentView.swift */,
+				D35C5A65272FBA8A00B68B80 /* Models */,
+				D35C5A60272F5C3200B68B80 /* Settings */,
+				D35C5A5D272F55CA00B68B80 /* Summary */,
+				D35C5A58272E57C200B68B80 /* Dashboard */,
+				D35C5A57272E579900B68B80 /* System */,
 				92698ABB272B72C6009626E8 /* Assets.xcassets */,
 				92698AC0272B72C6009626E8 /* Info.plist */,
 				92698ABD272B72C6009626E8 /* Preview Content */,
@@ -160,6 +171,47 @@
 				1996FF6E5556F16476DE34D1 /* Pods-GymNoteTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D35C5A57272E579900B68B80 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				92698AB7272B72C1009626E8 /* GymNoteApp.swift */,
+				D35C5A59272F53A600B68B80 /* MainTabView.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		D35C5A58272E57C200B68B80 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				D35C5A5B272F53DD00B68B80 /* DashboardView.swift */,
+				D35C5A63272F5E4700B68B80 /* DashboardViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		D35C5A5D272F55CA00B68B80 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				D35C5A5E272F55F600B68B80 /* SummaryView.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		D35C5A60272F5C3200B68B80 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D35C5A61272F5C5000B68B80 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D35C5A65272FBA8A00B68B80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,8 +410,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92698ABA272B72C1009626E8 /* ContentView.swift in Sources */,
+				D35C5A62272F5C5000B68B80 /* SettingsView.swift in Sources */,
+				D35C5A5C272F53DD00B68B80 /* DashboardView.swift in Sources */,
+				D35C5A5F272F55F600B68B80 /* SummaryView.swift in Sources */,
+				D35C5A64272F5E4700B68B80 /* DashboardViewModel.swift in Sources */,
 				92698AB8272B72C1009626E8 /* GymNoteApp.swift in Sources */,
+				D35C5A5A272F53A600B68B80 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,7 +577,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GymNote/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GymNote/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,7 +585,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.gymnote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -543,7 +599,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GymNote/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GymNote/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,7 +607,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.gymnote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

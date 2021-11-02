@@ -1,40 +1,27 @@
 PODS:
-  - ReactiveSwift (6.0.0)
-  - Realm (10.18.0):
-    - Realm/Headers (= 10.18.0)
-  - Realm/Headers (10.18.0)
-  - RealmSwift (10.18.0):
-    - Realm (= 10.18.0)
+  - Realm (10.17.0):
+    - Realm/Headers (= 10.17.0)
+  - Realm/Headers (10.17.0)
+  - RealmSwift (10.17.0):
+    - Realm (= 10.17.0)
   - SwiftyJSON (5.0.1)
-  - Workflow (0.28.1):
-    - ReactiveSwift (~> 6.0.0)
-  - WorkflowUI (0.28.1):
-    - Workflow (= 0.28.1)
 
 DEPENDENCIES:
   - Realm
   - RealmSwift
   - SwiftyJSON
-  - Workflow
-  - WorkflowUI
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - ReactiveSwift
     - Realm
     - RealmSwift
     - SwiftyJSON
-    - Workflow
-    - WorkflowUI
 
 SPEC CHECKSUMS:
-  ReactiveSwift: 24b7ed245617bbfd30ee0c87779b6c64ac1b4518
-  Realm: b8b0a36bf48c39c50fd8cee7ac34005e6d887ddd
-  RealmSwift: fe2f33d731f47aaf4c3618930f9f7cf7b935c33f
+  Realm: 9533276bd76f66aa2fd0d3ffe700c1f6023dcab6
+  RealmSwift: 57f5d59aa29852587aad1e861989e7af139894b5
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
-  Workflow: f1462201a930862bac3bf59bde933db6908d1b16
-  WorkflowUI: 13fd5f0508b9f72ddfcf3efc31ba97bbf58b169a
 
-PODFILE CHECKSUM: 7e6c33dd8ce3fec7443a89f384df234f4988edff
+PODFILE CHECKSUM: 61ff6c114912bc75a800eb57a0239ff88ed293d9
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.10.2
