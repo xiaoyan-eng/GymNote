@@ -25,9 +25,21 @@ struct MainTabView: View {
                 }
                 .tag(0)
             
-            SummaryView()
+            PlansView()
                 .tabItem {
                     if selection == 1 {
+                        Image(systemName: "rectangle.and.pencil.and.ellipsis")
+                    } else {
+                        Image(systemName: "rectangle.and.pencil.and.ellipsis")
+                    }
+                    
+                    Text("Plans")
+                }
+                .tag(1)
+
+            SummaryView()
+                .tabItem {
+                    if selection == 2 {
                         Image(systemName: "chart.xyaxis.line")
                     } else {
                         Image(systemName: "chart.xyaxis.line")
@@ -35,11 +47,11 @@ struct MainTabView: View {
                     
                     Text("Summary")
                 }
-                .tag(1)
+                .tag(2)
             
             SettingsView()
                 .tabItem {
-                    if selection == 2 {
+                    if selection == 3 {
                         Image(systemName: "gear")
                     } else {
                         Image(systemName: "gear")
@@ -47,7 +59,7 @@ struct MainTabView: View {
                     
                     Text("Settings")
                 }
-                .tag(1)
+                .tag(3)
         }
     }
 }
