@@ -9,19 +9,18 @@ import Foundation
 import RealmSwift
 
 class WorkoutPlan: Object, Identifiable {
-    @objc dynamic var id: String
-    @objc dynamic var name: String
-    @objc dynamic var state: WorkoutState
-    @objc dynamic var startTime: Date
-    @objc dynamic var endTime: Date?
+    @objc dynamic var id: String = UUID().uuidString
+    @objc dynamic var name: String = ""
+    @objc dynamic var state: WorkoutState = .pending
+    @objc dynamic var startTime: Date = .now
+    @objc dynamic var endTime: Date? = nil
     var exercises: List<Exercise> = .init()
-
-    init(name: String, startTime: Date, endTime: Date?) {
-           self.id = UUID().uuidString
-           self.name = name
-           self.state = .pending
-           self.startTime = startTime
-           self.endTime = endTime
+    
+    convenience init(name: String, startTime: Date, endTime: Date?) {
+        self.init()
+        self.name = name
+        self.startTime = startTime
+        self.endTime = endTime
     }
     
     func addExercise(_ exercise: Exercise) {

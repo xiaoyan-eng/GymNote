@@ -180,6 +180,13 @@
 			path = GymNoteUITests;
 			sourceTree = "<group>";
 		};
+		929773C92773F07300F5ABB0 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		B61B1689285AE0DBE01AEA1D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				D3958C0827421D1F00DBABAF /* Home */,
+				929773C92773F07300F5ABB0 /* Details */,
 				D3958C0927421D2D00DBABAF /* Search */,
 			);
 			path = Plans;

@@ -14,14 +14,14 @@ struct PlansHomeView: View {
         NavigationView {
             List {
                 ForEach(viewModel.existingPlans) { plan in
+                    NavigationLink {
+                        PlansSearchView()
+                    } label: {
                     Text(plan.name)
                         .listRowSeparator(.hidden)
+                    }
                 }
             }
-            .searchable(text: $viewModel.searchText,
-                        placement: .navigationBarDrawer(displayMode: .always),
-                        prompt: "Search Exercise")
-            .navigationTitle("Exercises")
         }
         .navigationViewStyle(.stack)
     }

@@ -25,7 +25,7 @@ struct MainTabView: View {
                 }
                 .tag(0)
             
-            PlansView()
+            PlansHomeView()
                 .tabItem {
                     if selection == 1 {
                         Image(systemName: "rectangle.and.pencil.and.ellipsis")
