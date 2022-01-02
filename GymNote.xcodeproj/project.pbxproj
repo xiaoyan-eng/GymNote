@@ -27,6 +27,9 @@
 		D3958C0727421C7000DBABAF /* PlansHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3958C0627421C7000DBABAF /* PlansHomeView.swift */; };
 		D3958C0B27421D4B00DBABAF /* PlansHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3958C0A27421D4B00DBABAF /* PlansHomeViewModel.swift */; };
 		D3958C0D27421E9800DBABAF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3958C0C27421E9800DBABAF /* Extensions.swift */; };
+		D3D0B3EC277F8F5800428B8F /* PlanDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D0B3EB277F8F5800428B8F /* PlanDetailsView.swift */; };
+		D3D0B3EE277F8F6E00428B8F /* PlanDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D0B3ED277F8F6E00428B8F /* PlanDetailsViewModel.swift */; };
+		D3E424DC27799AD500660310 /* PlanCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E424DB27799AD500660310 /* PlanCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +79,9 @@
 		D3958C0627421C7000DBABAF /* PlansHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansHomeView.swift; sourceTree = "<group>"; };
 		D3958C0A27421D4B00DBABAF /* PlansHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansHomeViewModel.swift; sourceTree = "<group>"; };
 		D3958C0C27421E9800DBABAF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D3D0B3EB277F8F5800428B8F /* PlanDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanDetailsView.swift; sourceTree = "<group>"; };
+		D3D0B3ED277F8F6E00428B8F /* PlanDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanDetailsViewModel.swift; sourceTree = "<group>"; };
+		D3E424DB27799AD500660310 /* PlanCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCellView.swift; sourceTree = "<group>"; };
 		D94451131F03E005ED6D6C09 /* Pods_GymNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -180,13 +186,6 @@
 			path = GymNoteUITests;
 			sourceTree = "<group>";
 		};
-		929773C92773F07300F5ABB0 /* Details */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Details;
-			sourceTree = "<group>";
-		};
 		B61B1689285AE0DBE01AEA1D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,7 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				D3958C0827421D1F00DBABAF /* Home */,
-				929773C92773F07300F5ABB0 /* Details */,
+				D3D0B3EA277F8F2200428B8F /* Details */,
 				D3958C0927421D2D00DBABAF /* Search */,
 			);
 			path = Plans;
@@ -265,6 +264,7 @@
 			children = (
 				D3958C0627421C7000DBABAF /* PlansHomeView.swift */,
 				D3958C0A27421D4B00DBABAF /* PlansHomeViewModel.swift */,
+				D3E424DB27799AD500660310 /* PlanCellView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -276,6 +276,15 @@
 				D35C5A742734F61100B68B80 /* PlansSearchViewModel.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		D3D0B3EA277F8F2200428B8F /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				D3D0B3EB277F8F5800428B8F /* PlanDetailsView.swift */,
+				D3D0B3ED277F8F6E00428B8F /* PlanDetailsViewModel.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,8 +495,11 @@
 				D35C5A732734F5EA00B68B80 /* PlansSearchView.swift in Sources */,
 				D35C5A5A272F53A600B68B80 /* MainTabView.swift in Sources */,
 				D35C5A6A2734E33A00B68B80 /* Constants.swift in Sources */,
+				D3D0B3EC277F8F5800428B8F /* PlanDetailsView.swift in Sources */,
 				D35C5A752734F61100B68B80 /* PlansSearchViewModel.swift in Sources */,
 				D3958C0D27421E9800DBABAF /* Extensions.swift in Sources */,
+				D3E424DC27799AD500660310 /* PlanCellView.swift in Sources */,
+				D3D0B3EE277F8F6E00428B8F /* PlanDetailsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
