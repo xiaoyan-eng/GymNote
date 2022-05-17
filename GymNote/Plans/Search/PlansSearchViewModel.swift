@@ -13,7 +13,7 @@ final class PlansSearchViewModel: ObservableObject {
     @Published var selectedBodyParts: [BodyPart] = Constants.allParts
     @Published var searchText: String = ""
     
-    var exercises: [Exercise] {
+    var exercises: [WorkoutExercise] {
         let exercises = exercises(with: selectedBodyParts)
         guard searchText != "" else {
             return exercises
@@ -21,7 +21,7 @@ final class PlansSearchViewModel: ObservableObject {
         return exercises.filter { $0.name.contains(searchText) }
     }
     
-    func exercises(with bodyParts: [BodyPart]) -> [Exercise] {
+    func exercises(with bodyParts: [BodyPart]) -> [WorkoutExercise] {
         return Constants.fullList.filter { bodyParts.contains($0.part) }
     }
 }

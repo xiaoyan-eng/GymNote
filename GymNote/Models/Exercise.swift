@@ -40,7 +40,7 @@ import RealmSwift
     }
 }
 
-class Exercise: Object, Identifiable {
+class WorkoutExercise: Object, Identifiable {
 
     @objc dynamic var part: BodyPart = .others
     @objc dynamic var name: String = ""

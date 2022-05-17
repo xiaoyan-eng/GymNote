@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import RealmSwift
 
 struct PlanDetailsView: View {
     @Binding var plan: Plan
     @State var count = 0
     
     var body: some View {
+        List {
+            ForEach(plan.exercises) { exercise in
+                Text(exercise.name)
+                    .listRowSeparator(.hidden)
+            }
+        }
+        .navigationTitle(plan.name)
         Text(plan.name)
         Button("Change") {
             count += 1

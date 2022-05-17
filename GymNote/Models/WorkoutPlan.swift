@@ -14,7 +14,7 @@ class WorkoutPlan: Object, Identifiable {
     @objc dynamic var state: WorkoutState = .pending
     @objc dynamic var startTime: Date = .now
     @objc dynamic var endTime: Date? = nil
-    var exercises: List<Exercise> = .init()
+    var exercises: List<WorkoutExercise> = .init()
     
     var value: Plan {
         .init(
@@ -34,7 +34,7 @@ class WorkoutPlan: Object, Identifiable {
         self.endTime = endTime
     }
     
-    func addExercise(_ exercise: Exercise) {
+    func addExercise(_ exercise: WorkoutExercise) {
         exercises.append(exercise)
     }
 }
@@ -45,7 +45,7 @@ struct Plan: Identifiable {
     var state: WorkoutState
     var startTime: Date
     var endTime: Date?
-    var exercises: List<Exercise>
+    var exercises: List<WorkoutExercise>
     
     static func ==(lhs: Plan, rhs: Plan?) -> Bool {
         lhs.id == rhs?.id

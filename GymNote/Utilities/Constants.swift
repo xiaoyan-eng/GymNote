@@ -29,7 +29,7 @@ struct Constants {
         .others
     ]
     
-    static let fullList: [Exercise] = [
+    static let fullList: [WorkoutExercise] = [
         .init(part: .core, name: NSLocalizedString("Ab Roller", comment: "")),
         .init(part: .cardio, name: NSLocalizedString("Aerobics", comment: "")),
         .init(part: .shoulders, name: NSLocalizedString("Arnold Dumbbell Press", comment: "")),
